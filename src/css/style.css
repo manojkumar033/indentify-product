@@ -1596,7 +1596,7 @@ pre {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #01070e;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -2171,8 +2171,8 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5); }
 
 .btn-warning {
-  color: #212529;
-  background-color: #ffc107;
+  color: #eef1f2;
+  background-color: #13077d;
   border-color: #ffc107; }
   .btn-warning:hover {
     color: #212529;
@@ -8137,8 +8137,11 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: normal;
-  background: #fafafa;
-  color: gray; }
+  background: #cccccc;
+  /* border: 5px black solid; */
+  /* border-radius: 10px; */
+  /* margin: 10px; */
+  color: black; }
 
 a {
   -webkit-transition: .3s all ease;
@@ -8180,7 +8183,7 @@ h1, h2, h3, h4, h5,
   background-position: center center; }
 
 .ftco-navbar-light {
-  background: #252525 !important;
+  background: #000000 !important;
   z-index: 3;
   padding: 0; }
   @media (max-width: 991.98px) {
